@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death notes</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>zametkin</h1>
+        <div id="offline-status" class="offline-hidden">Offline</div>
+        <div class="note-input">
+            <textarea id="note-input" placeholder="Введите заметку..."></textarea>
+            <button id="add-note">add</button>
+            <button id="save-note" style="display: none;">Save</button>
+        </div>
+        <ul id="notes-list"></ul>
+        <div id="note-view" class="note-view-hidden">
+            <h2>Show</h2>
+            <p id="note-view-text"></p>
+            <button id="close-view">Close</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
