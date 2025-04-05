@@ -1,8 +1,10 @@
 
-## Установка и запуск
+## 1. Клонирование репозитория
+  
+  ```bash
+  git clone https://github.com/tenshyy1/frontend2.git
+  cd frontend2
 
-### 1. Клонирование репозитория
-
+## 2. Установить зависимости
 ```bash
-git clone https://github.com/tenshyy1/frontend2.git
-cd frontend2 
+npm install
